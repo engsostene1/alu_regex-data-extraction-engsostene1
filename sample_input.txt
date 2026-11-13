@@ -1,0 +1,34 @@
+=== API response dump 1 ===
+
+Contact our team: user@example.com, firstname.lastname@company.co.uk or
+support+billing@mail.example.org. Broken addresses like user@, @example.com
+and user@.com should be ignored.
+
+Useful links: https://www.example.com and https://subdomain.example.org/page.
+Also see https://example.com/search?q=regex&lang=en, which has a query string.
+A bare www.example.com or http:// with nothing after it is not a valid URL.
+
+Call us on (123) 456-7890, 123-456-7890 or 123.456.7890.
+Not phones: 123-456.7890 (mixed separators), 123-45-67890 (bad grouping).
+
+Payment cards on file: 1234 5678 9012 3456 and 1234-5678-9012-3456.
+Not cards: 1234 5678-9012 3456 (mixed), 1234 5678 9012 345 (15 digits).
+
+The office opens at 09:00 and closes at 17:45 (24-hour). Lunch is at 12:30 PM,
+the meeting starts at 2:30 PM and the call ends at 11:15am.
+Invalid times: 25:00, 14:60, 13:00 PM.
+
+=== API response 2 ===
+<html><body>
+<p>Welcome to the store</p>
+<div class="example">Special offer</div>
+<img src="image.jpg" alt="description">
+<br/>
+</body></html>
+Plain maths such as 3 < 5 > 2 is not a tag.
+
+Trending: #example #ThisIsAHashtag #regex_2026 and #100DaysOfCode.
+A lone # or "# space" is not a hashtag, nor is page#section in a link.
+
+Prices: $19.99, $1,234.56, $5 and $1,000,000.00 for the premium plan.
+Invalid amounts: $1,23.4, $.99 and $19.999.
